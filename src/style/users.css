@@ -1,0 +1,87 @@
+.users-container {
+    padding: 70px;
+    display: flex;
+    flex-direction: column; /* Add this to organize the elements vertically */
+    align-items: center; /* Center the table horizontally within the container */
+    justify-content: flex-start; /* Start justifying from the top */
+    max-width: 100%; /* Optional: restrict maximum width to prevent overflow */
+    height: auto; /* Adjust height according to content */
+}
+
+
+/* Table styling */
+.users-table {
+    width: 100%; /* Fills the width of its parent container */
+    max-width: 1000px; /* Increased max width to suit your design */
+    padding: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #2c3e50, rgba(0, 0, 0, 0));
+    table-layout: fixed; /* Distributes columns evenly */
+    margin: 0 0 0 15%; /* Centers the table horizontally */
+}
+
+/* Table header styling */
+.users-table th {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(to bottom right, #2c3e50, rgba(0, 0, 0, 0));
+    border-bottom: 1px solid darkgray;
+    width: 33%; /* Set the width of each column to match the content, adjust as necessary */
+}
+
+/* Adjust the width of the email column */
+.users-table td:nth-child(2), /* Assuming the email column is the second one */
+.users-table th:nth-child(2) {
+    width: 220px; /* Set the width of the email column */
+}
+
+/* Adjust the width of the  column */
+.users-table td:nth-child(3), /* Assuming the  column is the second one */
+.users-table th:nth-child(3) {
+    width: 110px; /* Set the width of the  column */
+}
+
+/* Adjust the width of the email column */
+.users-table td:nth-child(4), /* Assuming the email column is the second one */
+.users-table th:nth-child(4) {
+    width: 70%; /* Set the width of the email column */
+}
+
+/* Adjust the width of the email column */
+.users-table td:nth-child(5), /* Assuming the email column is the second one */
+.users-table th:nth-child(5) {
+    width: 60%; /* Set the width of the email column */
+}
+
+/* Adjust the width of the email column */
+.users-table td:nth-child(6), /* Assuming the email column is the second one */
+.users-table th:nth-child(6) {
+    width: 60%; /* Set the width of the email column */
+}
+
+/* Adjust the width of the email column */
+.users-table td:nth-child(7), /* Assuming the email column is the second one */
+.users-table th:nth-child(7) {
+    width: 60%; /* Set the width of the email column */
+}
+
+
+
+/* Table row and cell styling */
+.users-table tr {
+    border-bottom: 1px solid darkgray;
+    background: transparent; /* Set row background to transparent */
+}
+
+.users-table tr:last-child {
+    border-bottom: none;
+}
+
+.users-table td {
+    padding: 10px;
+    color: white;
+    background: transparent; /* Set cell background to transparent */
+}

@@ -1,0 +1,39 @@
+/* Set background color of the page to black */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Main container styling */
+.dashboard-container {
+    margin-left: 300px; /* Adjust to account for the sidebar width */
+    padding: 20px;
+}
+
+/* Card container styles */
+.card-container {
+    display: flex;
+    gap: 30px; /* Increased gap for more space between cards */
+    flex-wrap: wrap; /* Wrap cards to create a grid */
+    margin-bottom: 20px;
+}
+
+/* Card styles */
+.card {
+    padding: 20px;
+    background: linear-gradient(to bottom right, #2c3e50, rgba(0, 0, 0, 0));
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    flex: 1 1 40%; /* Adjusted card width for more cards on the same line */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Chart container styles */
+.chart-container {
+    width: 100%; /* Set width to 100% so the chart fits within the card */
+    height: 250px; /* Increased chart height for better visibility */
+    margin: 0 auto;
+}

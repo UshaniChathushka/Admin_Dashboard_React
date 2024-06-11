@@ -1,0 +1,55 @@
+/* Admin Login Page Styles */
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #2c3e50, rgba(0, 0, 0, 0.5));
+}
+
+/* Login Card */
+.login-card {
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+    background: #1f2937;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form and Inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2a3e4c;
+    color: #f0f0f0;
+}
+
+/* Login Button */
+.login-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #2678b5;
+}

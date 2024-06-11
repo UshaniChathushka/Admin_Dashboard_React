@@ -1,0 +1,62 @@
+/* Comments table container */
+.comments-container {
+    padding: 60px;
+    display: flex;
+    flex-direction: column; /* Organize the elements vertically */
+    align-items: center; /* Center the table horizontally within the container */
+    justify-content: flex-start; /* Start justifying from the top */
+    max-width: 100%; /* Optional: restrict maximum width to prevent overflow */
+    height: auto; /* Adjust height according to content */
+}
+
+/* Comments table */
+.comments-table {
+    width: 100%; /* Make sure it takes up the full width */
+    max-width: 1000px; /* Set a maximum width for the table */
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #2c3e50, rgba(0, 0, 0, 0));
+    table-layout: fixed; /* Ensures columns are of fixed width */
+    margin: 0 0 0 15%; /* Centers the table horizontally */
+}
+
+/* Table header styling */
+.comments-table th {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(to bottom right, #2c3e50, rgba(0, 0, 0, 0));
+    border-bottom: 1px solid darkgray;
+    width: 20%; /* Adjust as necessary */
+}
+
+/* Table row and cell styling */
+.comments-table tr {
+    border-bottom: 1px solid darkgray;
+    background: transparent;
+}
+
+.comments-table tr:last-child {
+    border-bottom: none;
+}
+
+.comments-table td {
+    padding: 10px;
+    color: white;
+    background: transparent; /* Keep the background transparent */
+}
+
+/* Delete button styling */
+.delete-button {
+    background-color: #e74c3c; /* Red background */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}

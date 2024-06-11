@@ -1,0 +1,102 @@
+/* Sidebar container styles */
+.sidebar {
+    position: fixed;
+    width: 250px; /* Adjust the width of the sidebar as desired */
+    height: 100vh; /* Sidebar will take up the full viewport height */
+    background: linear-gradient(to bottom right, #2c3e50, rgb(1, 9, 26)); /* Background gradient */
+    color: #f0f0f0; /* Sidebar text color */
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Aligns children vertically */
+    align-items: center; /* Centers children horizontally */
+    padding: 20px; /* Padding around content */
+    transition: width 0.3s ease; /* Smooth transition for width */
+}
+
+.sidebar.closed {
+    width: 60px; /* Adjust the width when closed */
+}
+
+.sidebar-toggle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.toggle-icon {
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Admin profile section styles */
+.admin-profile {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Aligns children vertically */
+    align-items: center; /* Centers children horizontally */
+    margin-bottom: 20px; /* Space below admin profile */
+}
+
+/* Admin profile picture styles */
+.admin-profile img {
+    width: 100px; /* Width of profile picture */
+    height: 100px; /* Height of profile picture */
+    border-radius: 50%; /* Circular profile picture */
+    border: 3px solid white; /* Optional: white border around the picture */
+}
+
+/* Admin name styles */
+.admin-name {
+    font-size: 20px; /* Font size of admin's name */
+    font-weight: bold; /* Bold font weight */
+    margin-top: 10px; /* Space between profile picture and name */
+    text-align: center; /* Center-align text */
+}
+
+/* Individual navigation link styles */
+.nav-links a {
+    color: #f0f0f0; /* Text color */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding around links */
+    margin: 15px 0; /* Increase margin between links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Aligns icons and text */
+}
+
+/* Navigation link icon styles */
+.nav-icon {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 1.2rem; /* Adjust font size of icons */
+}
+
+/* Hover effect on navigation links */
+.nav-links a:hover {
+    background-color: #333; /* Dark background on hover */
+}
+
+/* Active navigation link styles */
+.active-link {
+    background-color: #333; /* Dark background for active link */
+}
+
+/* Data Visualization section styles */
+.chart-section {
+    margin-bottom: 20px; /* Adjust spacing below the section */
+}
+
+/* Data Visualization header styles */
+.chart-header {
+    font-size: 20px; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+    margin-bottom: 10px; /* Add spacing below the header */
+}
+
+/* Horizontal line for separation */
+.section-divider {
+    width: 100%; /* Full width of the container */
+    border-top: 1px solid #ccc; /* Grey line */
+    margin-bottom: 10px; /* Space below the line */
+}
